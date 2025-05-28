@@ -1,0 +1,38 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ACipunyq_002Easm_002Fl_003AC_0021_003FUsers_003FAlexLex_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FFatawob_003FCipunyq_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AFadebic_002Easm_002Fl_003AC_0021_003FUsers_003FAlexLex_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FXykekox_003FFadebic_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AGodigaz_002Easm_002Fl_003AC_0021_003FUsers_003FAlexLex_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FLuhuxuf_003FGodigaz_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ARimikyb_002Easm_002Fl_003AC_0021_003FUsers_003FAlexLex_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FRajuhuv_003FRimikyb_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATebyhyk_002Easm_002Fl_003AC_0021_003FUsers_003FAlexLex_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FQakitej_003FTebyhyk_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AXyzukuf_002Easm_002Fl_003AC_0021_003FUsers_003FAlexLex_003FAppData_003FLocal_003FTemp_003FSandboxFiles_003FNuqehig_003FXyzukuf_002Easm/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/BuildTool/CustomBuildToolPath/@EntryValue">E:\Progs\Visual Studio\MSBuild\Current\Bin\MSBuild.exe</s:String>
+	<s:Int64 x:Key="/Default/Environment/Hierarchy/Build/BuildTool/MsbuildVersion/@EntryValue">1114112</s:Int64>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0abed220_002De13c_002D47bb_002Db7f1_002D99085274cb59/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestName" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;A83533AD-967A-4073-B7C2-3F1338BFD853/f:test.cpp&lt;/ProjectFile&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a0130382_002D6768_002D4db6_002Dbecf_002D370084ae7cbc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ConstIter" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;GTest::A83533AD-967A-4073-B7C2-3F1338BFD853::Windows,Version=v10.0.22621::Array.ConstIter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce406d13_002D0f53_002D42d7_002Da720_002D37030664a5ac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReverseIter #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;GTest::A83533AD-967A-4073-B7C2-3F1338BFD853::Windows,Version=v10.0.22621::Array.ReverseIter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea883120_002D909d_002D4a05_002D92b7_002D90d173f4b579/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReverseIter #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;GTest::A83533AD-967A-4073-B7C2-3F1338BFD853::Windows,Version=v10.0.22621::Array.ReverseIter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=edbee347_002D97ff_002D4a5d_002D8d13_002Dd98ca40729f1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReverseIter" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;GTest::A83533AD-967A-4073-B7C2-3F1338BFD853::Windows,Version=v10.0.22621::Array.ReverseIter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f527539f_002Dc3f8_002D476f_002Dbc20_002D8c03b6e9d452/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReverseIter #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;GTest::A83533AD-967A-4073-B7C2-3F1338BFD853::Windows,Version=v10.0.22621::Array.ReverseIter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

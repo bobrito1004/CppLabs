@@ -1,0 +1,1653 @@
+	.file	"lab1.cpp"
+	.text
+	.section	.text$_ZNSt11char_traitsIcE6lengthEPKc,"x"
+	.linkonce discard
+	.globl	_ZNSt11char_traitsIcE6lengthEPKc
+	.def	_ZNSt11char_traitsIcE6lengthEPKc;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt11char_traitsIcE6lengthEPKc
+_ZNSt11char_traitsIcE6lengthEPKc:
+.LFB172:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L3
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+	jmp	.L4
+.L3:
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	strlen
+	nop
+.L4:
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section .rdata,"dr"
+.LC0:
+	.ascii "default\0"
+	.section	.text$_ZNSt13random_deviceC1Ev,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt13random_deviceC1Ev
+	.def	_ZNSt13random_deviceC1Ev;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt13random_deviceC1Ev
+_ZNSt13random_deviceC1Ev:
+.LFB3326:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	pushq	%rbx
+	.seh_pushreg	%rbx
+	subq	$88, %rsp
+	.seh_stackalloc	88
+	leaq	80(%rsp), %rbp
+	.seh_setframe	%rbp, 80
+	.seh_endprologue
+	movq	%rcx, 32(%rbp)
+	leaq	-9(%rbp), %rax
+	movq	%rax, -8(%rbp)
+	nop
+	nop
+	leaq	-9(%rbp), %rdx
+	leaq	-48(%rbp), %rax
+	movq	%rdx, %r8
+	leaq	.LC0(%rip), %rdx
+	movq	%rax, %rcx
+.LEHB0:
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
+.LEHE0:
+	leaq	-48(%rbp), %rax
+	movq	32(%rbp), %rcx
+	movq	%rax, %rdx
+.LEHB1:
+	call	_ZNSt13random_device7_M_initERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+.LEHE1:
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev
+	leaq	-9(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt15__new_allocatorIcED2Ev
+	nop
+	jmp	.L10
+.L9:
+	movq	%rax, %rbx
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev
+	jmp	.L7
+.L8:
+	movq	%rax, %rbx
+.L7:
+	leaq	-9(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt15__new_allocatorIcED2Ev
+	nop
+	movq	%rbx, %rax
+	movq	%rax, %rcx
+.LEHB2:
+	call	_Unwind_Resume
+	nop
+.LEHE2:
+.L10:
+	addq	$88, %rsp
+	popq	%rbx
+	popq	%rbp
+	ret
+	.seh_handler	__gxx_personality_seh0, @unwind, @except
+	.seh_handlerdata
+.LLSDA3326:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE3326-.LLSDACSB3326
+.LLSDACSB3326:
+	.uleb128 .LEHB0-.LFB3326
+	.uleb128 .LEHE0-.LEHB0
+	.uleb128 .L8-.LFB3326
+	.uleb128 0
+	.uleb128 .LEHB1-.LFB3326
+	.uleb128 .LEHE1-.LEHB1
+	.uleb128 .L9-.LFB3326
+	.uleb128 0
+	.uleb128 .LEHB2-.LFB3326
+	.uleb128 .LEHE2-.LEHB2
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE3326:
+	.section	.text$_ZNSt13random_deviceC1Ev,"x"
+	.linkonce discard
+	.seh_endproc
+	.section	.text$_ZNSt13random_deviceD1Ev,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt13random_deviceD1Ev
+	.def	_ZNSt13random_deviceD1Ev;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt13random_deviceD1Ev
+_ZNSt13random_deviceD1Ev:
+.LFB3332:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt13random_device7_M_finiEv
+	nop
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_handler	__gxx_personality_seh0, @unwind, @except
+	.seh_handlerdata
+.LLSDA3332:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE3332-.LLSDACSB3332
+.LLSDACSB3332:
+.LLSDACSE3332:
+	.section	.text$_ZNSt13random_deviceD1Ev,"x"
+	.linkonce discard
+	.seh_endproc
+	.section	.text$_ZNSt13random_deviceclEv,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt13random_deviceclEv
+	.def	_ZNSt13random_deviceclEv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt13random_deviceclEv
+_ZNSt13random_deviceclEv:
+.LFB3336:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt13random_device9_M_getvalEv
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section .rdata,"dr"
+	.align 8
+.LC1:
+	.ascii "HAMMURABI: I BEG TO REPORT TO YOU,\12\11IN YEAR \0"
+.LC2:
+	.ascii ", \0"
+.LC3:
+	.ascii " PEOPLE STARVED, \0"
+.LC4:
+	.ascii " CAME TO THE CITY.\12\0"
+	.align 8
+.LC5:
+	.ascii "\11A HORRIBLE PLAGUE STRUCK! HALF THE PEOPLE DIED.\12\0"
+.LC6:
+	.ascii "\11POPULATION IS NOW \0"
+.LC7:
+	.ascii ".\12\11THE CITY NOW OWNS \0"
+.LC8:
+	.ascii " ACRES.\12\11YOU HARVESTED \0"
+.LC9:
+	.ascii " BUSHELS PER ACRE.\12\11RATS ATE \0"
+.LC10:
+	.ascii " BUSHELS.\12\11YOU NOW HAVE \0"
+	.align 8
+.LC11:
+	.ascii " BUSHELS IN STORE.\12\11LAND IS TRADING AT \0"
+.LC12:
+	.ascii " BUSHELS PER ACRE.\12\0"
+	.align 8
+.LC13:
+	.ascii "\12HOW MANY ACRES DO YOU WISH TO BUY? \0"
+	.align 8
+.LC14:
+	.ascii "\12HOW MANY ACRES DO YOU WISH TO SELL? \0"
+	.align 8
+.LC15:
+	.ascii "\12HOW MANY BUSHELS DO YOU WISH TO FEED YOUR PEOPLE? \0"
+	.align 8
+.LC16:
+	.ascii "\12HOW MANY ACRES DO YOU WISH TO PLANT WITH SEED? \0"
+	.align 8
+.LC18:
+	.ascii "HAMMURABI: THINK AGAIN. YOU HAVE ONLY \0"
+.LC19:
+	.ascii " BUSHELS OF GRAIN. NOW THEN,\0"
+	.text
+	.globl	main
+	.def	main;	.scl	2;	.type	32;	.endef
+	.seh_proc	main
+main:
+.LFB4447:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	pushq	%rbx
+	.seh_pushreg	%rbx
+	movl	$5128, %eax
+	call	___chkstk_ms
+	subq	%rax, %rsp
+	.seh_stackalloc	5128
+	leaq	128(%rsp), %rbp
+	.seh_setframe	%rbp, 128
+	.seh_endprologue
+	call	__main
+	leaq	2448(%rbp), %rax
+	movq	%rax, %rcx
+.LEHB3:
+	call	_ZNSt13random_deviceC1Ev
+.LEHE3:
+	leaq	2448(%rbp), %rax
+	movq	%rax, %rcx
+.LEHB4:
+	call	_ZNSt13random_deviceclEv
+	movl	%eax, %edx
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEC1Ej
+	leaq	-68(%rbp), %rax
+	movl	$6, %r8d
+	movl	$1, %edx
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEC1Ett
+	leaq	-72(%rbp), %rax
+	movl	$26, %r8d
+	movl	$17, %edx
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEC1Ett
+	leaq	-76(%rbp), %rax
+	movl	$99, %r8d
+	movl	$0, %edx
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEC1Ett
+	movl	$100, 4960(%rbp)
+	movl	$2800, 4988(%rbp)
+	movl	$1000, 4984(%rbp)
+	movl	$26, 4980(%rbp)
+	movl	$3, 4976(%rbp)
+	movl	$0, 4972(%rbp)
+	movl	$5, 4956(%rbp)
+	movl	$200, 4968(%rbp)
+	movl	$0, -80(%rbp)
+	movl	$0, -84(%rbp)
+	movl	$0, -88(%rbp)
+	movl	$0, -92(%rbp)
+	movw	$0, 4966(%rbp)
+	movb	$0, 4965(%rbp)
+	jmp	.L15
+.L22:
+	leaq	.LC1(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movzwl	4966(%rbp), %eax
+	addl	$1, %eax
+	movw	%ax, 4966(%rbp)
+	movswl	4966(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEs
+	movq	%rax, %rcx
+	leaq	.LC2(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4972(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC3(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4956(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC4(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	cmpb	$0, 4965(%rbp)
+	je	.L16
+	leaq	.LC5(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+.L16:
+	leaq	.LC6(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4960(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC7(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4984(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC8(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4976(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC9(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4968(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC10(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4988(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC11(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4980(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC12(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+.L20:
+	leaq	.LC13(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leaq	-80(%rbp), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt3cin(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZNSirsERi
+	leaq	.LC14(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leaq	-84(%rbp), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt3cin(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZNSirsERi
+	leaq	.LC15(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leaq	-88(%rbp), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt3cin(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZNSirsERi
+	leaq	.LC16(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	leaq	-92(%rbp), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt3cin(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZNSirsERi
+	movl	-80(%rbp), %eax
+	movl	-84(%rbp), %edx
+	subl	%edx, %eax
+	imull	4980(%rbp), %eax
+	movl	-88(%rbp), %edx
+	addl	%edx, %eax
+	pxor	%xmm1, %xmm1
+	cvtsi2sdl	%eax, %xmm1
+	movl	-92(%rbp), %eax
+	addl	$1, %eax
+	pxor	%xmm2, %xmm2
+	cvtsi2sdl	%eax, %xmm2
+	movsd	.LC17(%rip), %xmm0
+	mulsd	%xmm2, %xmm0
+	addsd	%xmm0, %xmm1
+	pxor	%xmm0, %xmm0
+	cvtsi2sdl	4988(%rbp), %xmm0
+	comisd	%xmm1, %xmm0
+	jnb	.L27
+	leaq	.LC18(%rip), %rax
+	movq	%rax, %rdx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	movq	%rax, %rcx
+	movl	4988(%rbp), %eax
+	movl	%eax, %edx
+	call	_ZNSolsEi
+	movq	%rax, %rcx
+	leaq	.LC19(%rip), %rax
+	movq	%rax, %rdx
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+	jmp	.L20
+.L27:
+	nop
+	movl	-80(%rbp), %eax
+	movl	-84(%rbp), %edx
+	subl	%edx, %eax
+	imull	4980(%rbp), %eax
+	movl	-88(%rbp), %edx
+	addl	%eax, %edx
+	movl	-92(%rbp), %eax
+	addl	$1, %eax
+	pxor	%xmm1, %xmm1
+	cvtsi2sdl	%eax, %xmm1
+	movsd	.LC17(%rip), %xmm0
+	mulsd	%xmm1, %xmm0
+	cvttsd2sil	%xmm0, %eax
+	addl	%edx, %eax
+	subl	%eax, 4988(%rbp)
+	movl	-80(%rbp), %eax
+	movl	-84(%rbp), %edx
+	subl	%edx, %eax
+	subl	%eax, 4984(%rbp)
+	leaq	-64(%rbp), %rdx
+	leaq	-68(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_
+	movzwl	%ax, %eax
+	movl	%eax, 4976(%rbp)
+	movl	4976(%rbp), %eax
+	imull	4984(%rbp), %eax
+	addl	%eax, 4988(%rbp)
+	pxor	%xmm1, %xmm1
+	cvtsi2sdl	4988(%rbp), %xmm1
+	movsd	.LC20(%rip), %xmm0
+	mulsd	%xmm1, %xmm0
+	cvttsd2sil	%xmm0, %eax
+	movzwl	%ax, %edx
+	leaq	-96(%rbp), %rax
+	movl	%edx, %r8d
+	movl	$0, %edx
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEC1Ett
+	leaq	-64(%rbp), %rdx
+	leaq	-96(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_
+	movzwl	%ax, %eax
+	movl	%eax, 4968(%rbp)
+	movl	4968(%rbp), %eax
+	subl	%eax, 4988(%rbp)
+	movl	-88(%rbp), %eax
+	pxor	%xmm1, %xmm1
+	cvtsi2sdl	%eax, %xmm1
+	movsd	.LC21(%rip), %xmm0
+	mulsd	%xmm1, %xmm0
+	cvttsd2sil	%xmm0, %eax
+	cmpl	%eax, 4960(%rbp)
+	jg	.L21
+	movl	$0, 4972(%rbp)
+.L21:
+	leaq	-64(%rbp), %rdx
+	leaq	-72(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_
+	movzwl	%ax, %eax
+	movl	%eax, 4980(%rbp)
+	leaq	-64(%rbp), %rdx
+	leaq	-76(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_
+	cmpw	$14, %ax
+	setbe	%al
+	movb	%al, 4965(%rbp)
+	movl	4976(%rbp), %eax
+	movl	%eax, %edx
+	movq	.refptr._ZSt4cout(%rip), %rax
+	movq	%rax, %rcx
+	call	_ZNSolsEi
+.LEHE4:
+.L15:
+	cmpw	$0, 4966(%rbp)
+	jle	.L22
+	movl	$0, %ebx
+	leaq	2448(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt13random_deviceD1Ev
+	movl	%ebx, %eax
+	jmp	.L26
+.L25:
+	movq	%rax, %rbx
+	leaq	2448(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt13random_deviceD1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rcx
+.LEHB5:
+	call	_Unwind_Resume
+.LEHE5:
+.L26:
+	addq	$5128, %rsp
+	popq	%rbx
+	popq	%rbp
+	ret
+	.seh_handler	__gxx_personality_seh0, @unwind, @except
+	.seh_handlerdata
+.LLSDA4447:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE4447-.LLSDACSB4447
+.LLSDACSB4447:
+	.uleb128 .LEHB3-.LFB4447
+	.uleb128 .LEHE3-.LEHB3
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB4-.LFB4447
+	.uleb128 .LEHE4-.LEHB4
+	.uleb128 .L25-.LFB4447
+	.uleb128 0
+	.uleb128 .LEHB5-.LFB4447
+	.uleb128 .LEHE5-.LEHB5
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE4447:
+	.text
+	.seh_endproc
+	.globl	_Z8passYearv
+	.def	_Z8passYearv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_Z8passYearv
+_Z8passYearv:
+.LFB4448:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movl	$0, %eax
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+	.def	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc:
+.LFB4449:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	$0, -8(%rbp)
+	jmp	.L31
+.L32:
+	addq	$1, -8(%rbp)
+.L31:
+	movb	$0, -9(%rbp)
+	movq	16(%rbp), %rdx
+	movq	-8(%rbp), %rax
+	leaq	(%rdx,%rax), %rcx
+	leaq	-9(%rbp), %rax
+	movq	%rax, %rdx
+	call	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+	xorl	$1, %eax
+	testb	%al, %al
+	jne	.L32
+	movq	-8(%rbp), %rax
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev:
+.LFB4548:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt15__new_allocatorIcED2Ev
+	nop
+	nop
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section .rdata,"dr"
+	.align 8
+.LC22:
+	.ascii "basic_string: construction from null is not valid\0"
+	.section	.text$_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_:
+.LFB4793:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	pushq	%rsi
+	.seh_pushreg	%rsi
+	pushq	%rbx
+	.seh_pushreg	%rbx
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	leaq	48(%rsp), %rbp
+	.seh_setframe	%rbp, 48
+	.seh_endprologue
+	movq	%rcx, 32(%rbp)
+	movq	%rdx, 40(%rbp)
+	movq	%r8, 48(%rbp)
+	movq	32(%rbp), %rbx
+	movq	32(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv
+	movq	48(%rbp), %rdx
+	movq	%rdx, %r8
+	movq	%rax, %rdx
+	movq	%rbx, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC1EPcRKS3_
+	cmpq	$0, 40(%rbp)
+	jne	.L36
+	leaq	.LC22(%rip), %rax
+	movq	%rax, %rcx
+.LEHB6:
+	call	_ZSt19__throw_logic_errorPKc
+.L36:
+	movq	40(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt11char_traitsIcE6lengthEPKc
+	movq	40(%rbp), %rdx
+	addq	%rdx, %rax
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rcx
+	movq	40(%rbp), %rdx
+	movq	32(%rbp), %rax
+	movl	%esi, %r9d
+	movq	%rcx, %r8
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+.LEHE6:
+	jmp	.L39
+.L38:
+	movq	%rax, %rbx
+	movq	32(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rcx
+.LEHB7:
+	call	_Unwind_Resume
+	nop
+.LEHE7:
+.L39:
+	addq	$48, %rsp
+	popq	%rbx
+	popq	%rsi
+	popq	%rbp
+	ret
+	.seh_handler	__gxx_personality_seh0, @unwind, @except
+	.seh_handlerdata
+.LLSDA4793:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE4793-.LLSDACSB4793
+.LLSDACSB4793:
+	.uleb128 .LEHB6-.LFB4793
+	.uleb128 .LEHE6-.LEHB6
+	.uleb128 .L38-.LFB4793
+	.uleb128 0
+	.uleb128 .LEHB7-.LFB4793
+	.uleb128 .LEHE7-.LEHB7
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE4793:
+	.section	.text$_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_,"x"
+	.linkonce discard
+	.seh_endproc
+	.section	.text$_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEC1Ej,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEC1Ej
+	.def	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEC1Ej;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEC1Ej
+_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEC1Ej:
+.LFB4809:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	%edx, 24(%rbp)
+	movl	24(%rbp), %edx
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE4seedEj
+	nop
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt24uniform_int_distributionItEC1Ett,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt24uniform_int_distributionItEC1Ett
+	.def	_ZNSt24uniform_int_distributionItEC1Ett;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt24uniform_int_distributionItEC1Ett
+_ZNSt24uniform_int_distributionItEC1Ett:
+.LFB4812:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	%edx, %eax
+	movl	%r8d, %edx
+	movw	%ax, 24(%rbp)
+	movl	%edx, %eax
+	movw	%ax, 32(%rbp)
+	movq	16(%rbp), %rcx
+	movzwl	32(%rbp), %edx
+	movzwl	24(%rbp), %eax
+	movl	%edx, %r8d
+	movl	%eax, %edx
+	call	_ZNSt24uniform_int_distributionItE10param_typeC1Ett
+	nop
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_
+	.def	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_
+_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_:
+.LFB4814:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	%rdx, 24(%rbp)
+	movq	16(%rbp), %rcx
+	movq	24(%rbp), %rdx
+	movq	16(%rbp), %rax
+	movq	%rcx, %r8
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_RKNS0_10param_typeE
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_,"x"
+	.linkonce discard
+	.globl	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+	.def	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_:
+.LFB4815:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	%rdx, 24(%rbp)
+	movq	16(%rbp), %rax
+	movzbl	(%rax), %edx
+	movq	24(%rbp), %rax
+	movzbl	(%rax), %eax
+	cmpb	%al, %dl
+	sete	%al
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt15__new_allocatorIcED2Ev,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt15__new_allocatorIcED2Ev
+	.def	_ZNSt15__new_allocatorIcED2Ev;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt15__new_allocatorIcED2Ev
+_ZNSt15__new_allocatorIcED2Ev:
+.LFB4869:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	nop
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_
+	.def	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_
+_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_:
+.LFB4877:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	%rdx, 24(%rbp)
+	movq	16(%rbp), %rax
+	movq	24(%rbp), %rdx
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev
+	.def	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev
+_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev:
+.LFB4880:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movq	(%rax), %rax
+	testq	%rax, %rax
+	je	.L50
+	movq	16(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+.L50:
+	nop
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_handler	__gxx_personality_seh0, @unwind, @except
+	.seh_handlerdata
+.LLSDA4880:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE4880-.LLSDACSB4880
+.LLSDACSB4880:
+.LLSDACSE4880:
+	.section	.text$_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev,"x"
+	.linkonce discard
+	.seh_endproc
+	.section	.text$_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag:
+.LFB4874:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	pushq	%rbx
+	.seh_pushreg	%rbx
+	subq	$104, %rsp
+	.seh_stackalloc	104
+	leaq	96(%rsp), %rbp
+	.seh_setframe	%rbp, 96
+	.seh_endprologue
+	movq	%rcx, 32(%rbp)
+	movq	%rdx, 40(%rbp)
+	movq	%r8, 48(%rbp)
+	movq	40(%rbp), %rax
+	movq	%rax, -56(%rbp)
+	movq	48(%rbp), %rax
+	movq	%rax, -8(%rbp)
+	nop
+	movq	-56(%rbp), %rax
+	movq	%rax, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, -24(%rbp)
+	movq	-24(%rbp), %rax
+	subq	-16(%rbp), %rax
+	nop
+	movq	%rax, -40(%rbp)
+	movq	-40(%rbp), %rax
+	cmpq	$15, %rax
+	jbe	.L55
+	leaq	-40(%rbp), %rax
+	movq	32(%rbp), %rcx
+	movl	$0, %r8d
+	movq	%rax, %rdx
+.LEHB8:
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERyy
+.LEHE8:
+	movq	%rax, %rdx
+	movq	32(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc
+	movq	-40(%rbp), %rdx
+	movq	32(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEy
+	jmp	.L56
+.L55:
+	movq	32(%rbp), %rax
+	movq	%rax, -32(%rbp)
+	nop
+.L56:
+	movq	32(%rbp), %rdx
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC1EPS4_
+	movq	32(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv
+	movq	%rax, %rcx
+	movq	48(%rbp), %rdx
+	movq	40(%rbp), %rax
+	movq	%rdx, %r8
+	movq	%rax, %rdx
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcPKcS7_
+	movq	$0, -48(%rbp)
+	movq	-40(%rbp), %rdx
+	movq	32(%rbp), %rax
+	movq	%rax, %rcx
+.LEHB9:
+	call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEy
+.LEHE9:
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev
+	jmp	.L59
+.L58:
+	movq	%rax, %rbx
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD1Ev
+	movq	%rbx, %rax
+	movq	%rax, %rcx
+.LEHB10:
+	call	_Unwind_Resume
+	nop
+.LEHE10:
+.L59:
+	addq	$104, %rsp
+	popq	%rbx
+	popq	%rbp
+	ret
+	.seh_handler	__gxx_personality_seh0, @unwind, @except
+	.seh_handlerdata
+.LLSDA4874:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE4874-.LLSDACSB4874
+.LLSDACSB4874:
+	.uleb128 .LEHB8-.LFB4874
+	.uleb128 .LEHE8-.LEHB8
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB9-.LFB4874
+	.uleb128 .LEHE9-.LEHB9
+	.uleb128 .L58-.LFB4874
+	.uleb128 0
+	.uleb128 .LEHB10-.LFB4874
+	.uleb128 .LEHE10-.LEHB10
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE4874:
+	.section	.text$_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag,"x"
+	.linkonce discard
+	.seh_endproc
+	.section	.text$_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE4seedEj,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE4seedEj
+	.def	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE4seedEj;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE4seedEj
+_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE4seedEj:
+.LFB4989:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	%edx, 24(%rbp)
+	movl	24(%rbp), %eax
+	movl	%eax, %ecx
+	call	_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_
+	movq	16(%rbp), %rdx
+	movl	%eax, (%rdx)
+	movq	$1, -8(%rbp)
+	jmp	.L61
+.L62:
+	movq	-8(%rbp), %rax
+	leaq	-1(%rax), %rdx
+	movq	16(%rbp), %rax
+	movl	(%rax,%rdx,4), %eax
+	movl	%eax, -12(%rbp)
+	movl	-12(%rbp), %eax
+	shrl	$30, %eax
+	xorl	%eax, -12(%rbp)
+	movl	-12(%rbp), %eax
+	imull	$1812433253, %eax, %eax
+	movl	%eax, -12(%rbp)
+	movq	-8(%rbp), %rax
+	movl	%eax, %ecx
+	call	_ZNSt8__detail5__modIjLj624ELj1ELj0EEET_S1_
+	addl	%eax, -12(%rbp)
+	movl	-12(%rbp), %eax
+	movl	%eax, %ecx
+	call	_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_
+	movq	16(%rbp), %rdx
+	movq	-8(%rbp), %rcx
+	movl	%eax, (%rdx,%rcx,4)
+	addq	$1, -8(%rbp)
+.L61:
+	cmpq	$623, -8(%rbp)
+	jbe	.L62
+	movq	16(%rbp), %rax
+	movq	$624, 2496(%rax)
+	nop
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt24uniform_int_distributionItE10param_typeC1Ett,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt24uniform_int_distributionItE10param_typeC1Ett
+	.def	_ZNSt24uniform_int_distributionItE10param_typeC1Ett;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt24uniform_int_distributionItE10param_typeC1Ett
+_ZNSt24uniform_int_distributionItE10param_typeC1Ett:
+.LFB4992:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	%edx, %eax
+	movl	%r8d, %edx
+	movw	%ax, 24(%rbp)
+	movl	%edx, %eax
+	movw	%ax, 32(%rbp)
+	movq	16(%rbp), %rax
+	movzwl	24(%rbp), %edx
+	movw	%dx, (%rax)
+	movq	16(%rbp), %rax
+	movzwl	32(%rbp), %edx
+	movw	%dx, 2(%rax)
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L66
+	movq	16(%rbp), %rax
+	movzwl	(%rax), %edx
+	movq	16(%rbp), %rax
+	movzwl	2(%rax), %eax
+	cmpw	%dx, %ax
+	setb	%al
+	movzbl	%al, %eax
+	testl	%eax, %eax
+.L66:
+	nop
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_RKNS0_10param_typeE,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_RKNS0_10param_typeE
+	.def	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_RKNS0_10param_typeE;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_RKNS0_10param_typeE
+_ZNSt24uniform_int_distributionItEclISt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEEEtRT_RKNS0_10param_typeE:
+.LFB4994:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	pushq	%rbx
+	.seh_pushreg	%rbx
+	subq	$72, %rsp
+	.seh_stackalloc	72
+	leaq	64(%rsp), %rbp
+	.seh_setframe	%rbp, 64
+	.seh_endprologue
+	movq	%rcx, 32(%rbp)
+	movq	%rdx, 40(%rbp)
+	movq	%r8, 48(%rbp)
+	movl	$0, -4(%rbp)
+	movl	$-1, -8(%rbp)
+	movl	$-1, -16(%rbp)
+	movq	48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNKSt24uniform_int_distributionItE10param_type1bEv
+	movzwl	%ax, %ebx
+	movq	48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNKSt24uniform_int_distributionItE10param_type1aEv
+	movzwl	%ax, %eax
+	subl	%eax, %ebx
+	movl	%ebx, %edx
+	movl	%edx, -20(%rbp)
+	cmpl	$-1, -20(%rbp)
+	je	.L68
+	movl	-20(%rbp), %eax
+	addl	$1, %eax
+	movl	%eax, -24(%rbp)
+	movl	-24(%rbp), %eax
+	movl	%eax, -28(%rbp)
+	movl	-28(%rbp), %edx
+	movq	40(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt24uniform_int_distributionItE5_S_ndIySt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEjEET1_RT0_S4_
+	movl	%eax, -12(%rbp)
+	jmp	.L69
+.L68:
+	movq	40(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv
+	movl	%eax, -12(%rbp)
+.L69:
+	movq	48(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNKSt24uniform_int_distributionItE10param_type1aEv
+	movl	-12(%rbp), %edx
+	addl	%edx, %eax
+	addq	$72, %rsp
+	popq	%rbx
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_,"x"
+	.linkonce discard
+	.globl	_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_
+	.def	_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_
+_ZNSt8__detail5__modIjLj0ELj1ELj0EEET_S1_:
+.LFB5090:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movl	%ecx, 16(%rbp)
+	movl	16(%rbp), %eax
+	movl	%eax, %ecx
+	call	_ZNSt8__detail4_ModIjLj0ELj1ELj0ELb1ELb0EE6__calcEj
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt8__detail5__modIjLj624ELj1ELj0EEET_S1_,"x"
+	.linkonce discard
+	.globl	_ZNSt8__detail5__modIjLj624ELj1ELj0EEET_S1_
+	.def	_ZNSt8__detail5__modIjLj624ELj1ELj0EEET_S1_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt8__detail5__modIjLj624ELj1ELj0EEET_S1_
+_ZNSt8__detail5__modIjLj624ELj1ELj0EEET_S1_:
+.LFB5091:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$32, %rsp
+	.seh_stackalloc	32
+	.seh_endprologue
+	movl	%ecx, 16(%rbp)
+	movl	16(%rbp), %eax
+	movl	%eax, %ecx
+	call	_ZNSt8__detail4_ModIjLj624ELj1ELj0ELb1ELb1EE6__calcEj
+	addq	$32, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNKSt24uniform_int_distributionItE10param_type1bEv,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNKSt24uniform_int_distributionItE10param_type1bEv
+	.def	_ZNKSt24uniform_int_distributionItE10param_type1bEv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNKSt24uniform_int_distributionItE10param_type1bEv
+_ZNKSt24uniform_int_distributionItE10param_type1bEv:
+.LFB5093:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movzwl	2(%rax), %eax
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNKSt24uniform_int_distributionItE10param_type1aEv,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNKSt24uniform_int_distributionItE10param_type1aEv
+	.def	_ZNKSt24uniform_int_distributionItE10param_type1aEv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNKSt24uniform_int_distributionItE10param_type1aEv
+_ZNKSt24uniform_int_distributionItE10param_type1aEv:
+.LFB5094:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movzwl	(%rax), %eax
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt24uniform_int_distributionItE5_S_ndIySt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEjEET1_RT0_S4_,"x"
+	.linkonce discard
+	.globl	_ZNSt24uniform_int_distributionItE5_S_ndIySt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEjEET1_RT0_S4_
+	.def	_ZNSt24uniform_int_distributionItE5_S_ndIySt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEjEET1_RT0_S4_;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt24uniform_int_distributionItE5_S_ndIySt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEjEET1_RT0_S4_
+_ZNSt24uniform_int_distributionItE5_S_ndIySt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEjEET1_RT0_S4_:
+.LFB5095:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	%edx, 24(%rbp)
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv
+	movl	%eax, %edx
+	movl	24(%rbp), %eax
+	imulq	%rdx, %rax
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movl	%eax, -12(%rbp)
+	movl	-12(%rbp), %eax
+	cmpl	24(%rbp), %eax
+	jnb	.L80
+	movl	24(%rbp), %eax
+	negl	%eax
+	movl	$0, %edx
+	divl	24(%rbp)
+	movl	%edx, -16(%rbp)
+	jmp	.L81
+.L82:
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv
+	movl	%eax, %edx
+	movl	24(%rbp), %eax
+	imulq	%rdx, %rax
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movl	%eax, -12(%rbp)
+.L81:
+	movl	-12(%rbp), %eax
+	cmpl	-16(%rbp), %eax
+	jb	.L82
+.L80:
+	movq	-8(%rbp), %rax
+	shrq	$32, %rax
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv
+	.def	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv
+_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EEclEv:
+.LFB5096:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movq	16(%rbp), %rax
+	movq	2496(%rax), %rax
+	cmpq	$623, %rax
+	jbe	.L85
+	movq	16(%rbp), %rax
+	movq	%rax, %rcx
+	call	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE11_M_gen_randEv
+.L85:
+	movq	16(%rbp), %rax
+	movq	2496(%rax), %rax
+	leaq	1(%rax), %rdx
+	movq	16(%rbp), %rcx
+	movq	%rdx, 2496(%rcx)
+	movq	16(%rbp), %rdx
+	movl	(%rdx,%rax,4), %eax
+	movl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	shrl	$11, %eax
+	xorl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	sall	$7, %eax
+	andl	$-1658038656, %eax
+	xorl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	sall	$15, %eax
+	andl	$-272236544, %eax
+	xorl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	shrl	$18, %eax
+	xorl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt8__detail4_ModIjLj0ELj1ELj0ELb1ELb0EE6__calcEj,"x"
+	.linkonce discard
+	.globl	_ZNSt8__detail4_ModIjLj0ELj1ELj0ELb1ELb0EE6__calcEj
+	.def	_ZNSt8__detail4_ModIjLj0ELj1ELj0ELb1ELb0EE6__calcEj;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt8__detail4_ModIjLj0ELj1ELj0ELb1ELb0EE6__calcEj
+_ZNSt8__detail4_ModIjLj0ELj1ELj0ELb1ELb0EE6__calcEj:
+.LFB5162:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$16, %rsp
+	.seh_stackalloc	16
+	.seh_endprologue
+	movl	%ecx, 16(%rbp)
+	movl	16(%rbp), %eax
+	movl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	addq	$16, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt8__detail4_ModIjLj624ELj1ELj0ELb1ELb1EE6__calcEj,"x"
+	.linkonce discard
+	.globl	_ZNSt8__detail4_ModIjLj624ELj1ELj0ELb1ELb1EE6__calcEj
+	.def	_ZNSt8__detail4_ModIjLj624ELj1ELj0ELb1ELb1EE6__calcEj;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt8__detail4_ModIjLj624ELj1ELj0ELb1ELb1EE6__calcEj
+_ZNSt8__detail4_ModIjLj624ELj1ELj0ELb1ELb1EE6__calcEj:
+.LFB5163:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$16, %rsp
+	.seh_stackalloc	16
+	.seh_endprologue
+	movl	%ecx, 16(%rbp)
+	movl	16(%rbp), %eax
+	movl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	movl	%eax, %edx
+	shrl	$4, %edx
+	movl	%edx, %edx
+	imulq	$440509467, %rdx, %rdx
+	shrq	$32, %rdx
+	shrl	$2, %edx
+	imull	$624, %edx, %edx
+	subl	%edx, %eax
+	movl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	addq	$16, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section	.text$_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE11_M_gen_randEv,"x"
+	.linkonce discard
+	.align 2
+	.globl	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE11_M_gen_randEv
+	.def	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE11_M_gen_randEv;	.scl	2;	.type	32;	.endef
+	.seh_proc	_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE11_M_gen_randEv
+_ZNSt23mersenne_twister_engineIjLy32ELy624ELy397ELy31ELj2567483615ELy11ELj4294967295ELy7ELj2636928640ELy15ELj4022730752ELy18ELj1812433253EE11_M_gen_randEv:
+.LFB5164:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	movq	%rcx, 16(%rbp)
+	movl	$-2147483648, -20(%rbp)
+	movl	$2147483647, -24(%rbp)
+	movq	$0, -8(%rbp)
+	jmp	.L92
+.L95:
+	movq	16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	movl	(%rax,%rdx,4), %eax
+	andl	$-2147483648, %eax
+	movl	%eax, %ecx
+	movq	-8(%rbp), %rax
+	leaq	1(%rax), %rdx
+	movq	16(%rbp), %rax
+	movl	(%rax,%rdx,4), %eax
+	andl	$2147483647, %eax
+	orl	%ecx, %eax
+	movl	%eax, -36(%rbp)
+	movq	-8(%rbp), %rax
+	leaq	397(%rax), %rdx
+	movq	16(%rbp), %rax
+	movl	(%rax,%rdx,4), %edx
+	movl	-36(%rbp), %eax
+	shrl	%eax
+	xorl	%eax, %edx
+	movl	-36(%rbp), %eax
+	andl	$1, %eax
+	testl	%eax, %eax
+	je	.L93
+	movl	$-1727483681, %eax
+	jmp	.L94
+.L93:
+	movl	$0, %eax
+.L94:
+	xorl	%edx, %eax
+	movl	%eax, %ecx
+	movq	16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	movl	%ecx, (%rax,%rdx,4)
+	addq	$1, -8(%rbp)
+.L92:
+	cmpq	$226, -8(%rbp)
+	jbe	.L95
+	movq	$227, -16(%rbp)
+	jmp	.L96
+.L99:
+	movq	16(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movl	(%rax,%rdx,4), %eax
+	andl	$-2147483648, %eax
+	movl	%eax, %ecx
+	movq	-16(%rbp), %rax
+	leaq	1(%rax), %rdx
+	movq	16(%rbp), %rax
+	movl	(%rax,%rdx,4), %eax
+	andl	$2147483647, %eax
+	orl	%ecx, %eax
+	movl	%eax, -32(%rbp)
+	movq	-16(%rbp), %rax
+	leaq	-227(%rax), %rdx
+	movq	16(%rbp), %rax
+	movl	(%rax,%rdx,4), %edx
+	movl	-32(%rbp), %eax
+	shrl	%eax
+	xorl	%eax, %edx
+	movl	-32(%rbp), %eax
+	andl	$1, %eax
+	testl	%eax, %eax
+	je	.L97
+	movl	$-1727483681, %eax
+	jmp	.L98
+.L97:
+	movl	$0, %eax
+.L98:
+	xorl	%edx, %eax
+	movl	%eax, %ecx
+	movq	16(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movl	%ecx, (%rax,%rdx,4)
+	addq	$1, -16(%rbp)
+.L96:
+	cmpq	$622, -16(%rbp)
+	jbe	.L99
+	movq	16(%rbp), %rax
+	movl	2492(%rax), %eax
+	andl	$-2147483648, %eax
+	movl	%eax, %edx
+	movq	16(%rbp), %rax
+	movl	(%rax), %eax
+	andl	$2147483647, %eax
+	orl	%edx, %eax
+	movl	%eax, -28(%rbp)
+	movq	16(%rbp), %rax
+	movl	1584(%rax), %edx
+	movl	-28(%rbp), %eax
+	shrl	%eax
+	xorl	%eax, %edx
+	movl	-28(%rbp), %eax
+	andl	$1, %eax
+	testl	%eax, %eax
+	je	.L100
+	movl	$-1727483681, %eax
+	jmp	.L101
+.L100:
+	movl	$0, %eax
+.L101:
+	xorl	%eax, %edx
+	movq	16(%rbp), %rax
+	movl	%edx, 2492(%rax)
+	movq	16(%rbp), %rax
+	movq	$0, 2496(%rax)
+	nop
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.section .rdata,"dr"
+_ZNSt8__detail30__integer_to_chars_is_unsignedIjEE:
+	.byte	1
+_ZNSt8__detail30__integer_to_chars_is_unsignedImEE:
+	.byte	1
+_ZNSt8__detail30__integer_to_chars_is_unsignedIyEE:
+	.byte	1
+	.align 8
+.LC17:
+	.long	0
+	.long	1071644672
+	.align 8
+.LC20:
+	.long	515396076
+	.long	1068624773
+	.align 8
+.LC21:
+	.long	-1717986918
+	.long	1068079513
+	.def	__main;	.scl	2;	.type	32;	.endef
+	.def	__gxx_personality_seh0;	.scl	2;	.type	32;	.endef
+	.ident	"GCC: (x86_64-posix-seh-rev0, Built by MinGW-Builds project) 14.2.0"
+	.def	strlen;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt13random_device7_M_initERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev;	.scl	2;	.type	32;	.endef
+	.def	_Unwind_Resume;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt13random_device7_M_finiEv;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt13random_device9_M_getvalEv;	.scl	2;	.type	32;	.endef
+	.def	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc;	.scl	2;	.type	32;	.endef
+	.def	_ZNSolsEs;	.scl	2;	.type	32;	.endef
+	.def	_ZNSolsEi;	.scl	2;	.type	32;	.endef
+	.def	_ZNSirsERi;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC1EPcRKS3_;	.scl	2;	.type	32;	.endef
+	.def	_ZSt19__throw_logic_errorPKc;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERyy;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEy;	.scl	2;	.type	32;	.endef
+	.def	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcPKcS7_;	.scl	2;	.type	32;	.endef
+	.def	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEy;	.scl	2;	.type	32;	.endef
+	.section	.rdata$.refptr._ZSt3cin, "dr"
+	.globl	.refptr._ZSt3cin
+	.linkonce	discard
+.refptr._ZSt3cin:
+	.quad	_ZSt3cin
+	.section	.rdata$.refptr._ZSt4cout, "dr"
+	.globl	.refptr._ZSt4cout
+	.linkonce	discard
+.refptr._ZSt4cout:
+	.quad	_ZSt4cout
