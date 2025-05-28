@@ -3,8 +3,10 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-x64
-out
-ConsoleApplication1
-.vs
-.idea
+/x64
+/out
+/ConsoleApplication1
+/.vs
+/.idea
+labs.sln
+labs.sln.DotSetting.user
